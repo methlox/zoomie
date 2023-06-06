@@ -60,18 +60,15 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="contribute"
+                to="premium"
                 smooth={true}
                 duration={500}
                 spy={true}
                 exact="true"
                 offset={-80}
               >
-                Contribute
+                Premium
               </NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinksS to="login" target="_blank">Sign Up</NavLinksS>
             </NavItem>
           </NavMenu>
           <NavBtn>

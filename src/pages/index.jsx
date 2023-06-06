@@ -4,8 +4,7 @@ import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import Matches from "../components/Matches";
 import Discover from "../components/Discover";
-import Contribute from "../components/Contribute";
-import { contri } from "../components/Contribute/Data";
+import Premium from "../components/Premium";
 import Footer from "../components/Footer";
 const Home = () => {
 
@@ -22,7 +21,7 @@ const Home = () => {
       <HeroSection />
       <Matches />
       <Discover />
-      <Contribute {...contri} />
+      <Premium />
       <Footer />
     </>
   );
