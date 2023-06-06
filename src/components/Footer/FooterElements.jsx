@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link as LinkScroll } from "react-scroll";
 
 const containerColor = "#010606";
-const firstColor = "#F2B33D";
+const firstColor = "#F23558";
 
 export const FooterContainer = styled.footer`
   background: ${containerColor};

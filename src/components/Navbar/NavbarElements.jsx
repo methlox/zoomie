@@ -33,7 +33,7 @@ export const Navlogo = styled(LinkR)`
   color: #fff;
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   display: flex;
   align-items: center;
   margin-left: 24px;
@@ -80,6 +80,8 @@ export const NavLinks = styled(LinkS)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+  font-family: "Baskerville";
+  font-size: 18px;
 
   &.active {
     border-bottom: 3px solid #F23558
@@ -93,6 +95,8 @@ export const NavLinksS = styled(LinkR)`
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
+  font-family: "Baskerville";
+  font-size: 18px;
   cursor: pointer;
 
   &.active {

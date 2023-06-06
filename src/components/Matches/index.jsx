@@ -18,7 +18,7 @@ import Icon4 from "../../Media/nextjs.svg";
 const Matches = () => {
   return (
     <MatchesContainer id="matches">
-      <H1>Your Matches</H1>
+      <H1>Quick Bites!</H1>
       <Wrapper>
         <Card>
           <Icon src={Icon1} />

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const firstColor = "#F2B33D";
+const firstColor = "#F23558";
 
 export const InfoContainer = styled.div`
   color: #fff;

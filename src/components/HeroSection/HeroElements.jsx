@@ -61,7 +61,7 @@ export const HeroH1 = styled.div`
   color: #fff;
   font-size: 64px;
   text-align: center;
-  font-family: "Dancing Script";
+  font-family: "Baskerville";
 
   @media screen and (max-width: 768px) {
     font:size: 40px;

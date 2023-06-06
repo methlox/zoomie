@@ -30,6 +30,10 @@ const Navbar = ({ toggle }) => {
             <FaBars />
           </MobileIcon>
           <NavMenu>
+            <style>
+              @import
+              url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+            </style>
             <NavItem>
               <NavLinks
                 to="matches"
@@ -39,7 +43,7 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offset={-80}
               >
-                Social
+                Discover
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -51,7 +55,7 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offset={-80}
               >
-                Discover
+                Restaurants
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -67,11 +71,11 @@ const Navbar = ({ toggle }) => {
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinksS to='login'>Sign Up</NavLinksS>
+              <NavLinksS to="login">Sign Up</NavLinksS>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='login'>Sign In</NavBtnLink>
+            <NavBtnLink to="login">Sign In</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
