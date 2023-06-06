@@ -8,7 +8,7 @@ import {
   Icon,
   H2,
   P
-} from "./MatchElements";
+} from "./OrderElements";
 
 import Icon1 from "../../Media/react.svg";
 import Icon2 from "../../Media/express.svg";
@@ -17,7 +17,7 @@ import Icon4 from "../../Media/nextjs.svg";
 
 const Matches = () => {
   return (
-    <MatchesContainer id="matches">
+    <MatchesContainer id="order">
       <H1>Quick Bites!</H1>
       <Wrapper>
         <Card>

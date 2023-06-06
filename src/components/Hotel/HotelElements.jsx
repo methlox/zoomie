@@ -3,7 +3,7 @@ import styled from "styled-components";
 const bodyColor = "#f3f3fc";
 const containerColor = "#fff";
 
-export const DiscoverContainer = styled.div`
+export const OrderContainer = styled.div`
   height: 620px;
   display: flex;
   flex-direction: column;

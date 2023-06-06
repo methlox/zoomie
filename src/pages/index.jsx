@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
-import Matches from "../components/Matches";
-import Discover from "../components/Discover";
+import Matches from "../components/Order";
+import Order from "../components/Hotel";
 import Premium from "../components/Premium";
 import Footer from "../components/Footer";
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <HeroSection />
       <Matches />
-      <Discover />
+      <Order />
       <Premium />
       <Footer />
     </>

@@ -89,7 +89,6 @@ import { useWalletModal } from "@solana/wallet-adapter-react-ui";
 import { useWallet } from "@solana/wallet-adapter-react";
 
 const Premium = () => {
-
   const modalState = useWalletModal();
   const { wallet, connect } = useWallet();
 
@@ -115,7 +114,7 @@ const Premium = () => {
   };
 
   return (
-    <HeroContainer id="home">
+    <HeroContainer id="premium">
       <HeroBg>
         <ImageBg src={image} />
       </HeroBg>
@@ -126,9 +125,18 @@ const Premium = () => {
         </style>
 
         <HeroH1>Join the Ninja Way!</HeroH1>
-        <HeroP>Earn personalized rewards from your favourite restaurants and much more!</HeroP>
+        <HeroP>
+          Earn personalized rewards from your favourite restaurants and much
+          more!
+        </HeroP>
         <HeroBtnWrapper>
-          <Button to="login" target="_blank" onMouseEnter={onHover} onMouseLeave={onHover} onClick={handleClick}>
+          <Button
+            to="login"
+            target="_blank"
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            onClick={handleClick}
+          >
             Connect Wallet {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>

@@ -64,10 +64,12 @@ export const HeroH1 = styled.div`
   font-family: "Baskerville";
 
   @media screen and (max-width: 768px) {
-    font:size: 40px;
+    margin-top: 100px;
+    font-size: 30px;
   }
 
   @media screen and (max-width: 480px){
+    margin-top: 100px;
     font-size: 32px;
   }
 `;
@@ -80,11 +82,11 @@ export const HeroP = styled.div`
   max-width: 600px;
 
   @media screen and (max-width: 768px) {
-    font-size: 24px;
+    display: none;
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 18px;
+    display: none;
   }
 `;
 export const HeroBtnWrapper = styled.div`

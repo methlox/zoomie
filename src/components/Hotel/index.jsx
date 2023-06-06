@@ -1,14 +1,14 @@
 import React from "react";
 
 import {
-  DiscoverContainer,
+  OrderContainer,
   H1,
   Wrapper,
   Card,
   Icon,
   H2,
   P
-} from "./DiscoverElements";
+} from "./HotelElements";
 
 import Icon4 from "../../Media/nextjs.svg";
 import Icon5 from "../../Media/vue.svg";
@@ -16,7 +16,7 @@ import Icon6 from "../../Media/mongo.svg";
 
 const Discover = () => {
   return (
-    <DiscoverContainer id="discover">
+    <OrderContainer id="hotel">
       <H1>Discover</H1>
       <Wrapper>
       <Card>
@@ -38,7 +38,7 @@ const Discover = () => {
         </Card>
 
       </Wrapper>
-    </DiscoverContainer>
+    </OrderContainer>
   );
 };
 
