@@ -70,7 +70,7 @@
 
 // export default Premium;
 
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import image from "../../Media/heroo.jpg";
 import {
   HeroContainer,
@@ -85,7 +85,29 @@ import {
 } from "./PremiumElements";
 import { Button } from "../ButtonElement";
 
-const HeroSection = () => {
+import { useWalletModal } from "@solana/wallet-adapter-react-ui";
+import { useWallet } from "@solana/wallet-adapter-react";
+
+const Premium = () => {
+
+  const modalState = useWalletModal();
+  const { wallet, connect } = useWallet();
+
+  const handleClick = useCallback(
+    (event) => {
+      if (event.defaultPrevented) {
+        return;
+      }
+
+      if (!wallet) {
+        modalState.setVisible(true);
+      } else {
+        connect().catch(() => {});
+      }
+    },
+    [wallet, connect, modalState]
+  );
+
   const [hover, setHover] = useState(false);
 
   const onHover = () => {
@@ -103,10 +125,10 @@ const HeroSection = () => {
           url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
         </style>
 
-        <HeroH1>Grab a Free Premium!</HeroH1>
+        <HeroH1>Join the Ninja Way!</HeroH1>
         <HeroP>Earn personalized rewards from your favourite restaurants and much more!</HeroP>
         <HeroBtnWrapper>
-          <Button to="login" target="_blank" onMouseEnter={onHover} onMouseLeave={onHover}>
+          <Button to="login" target="_blank" onMouseEnter={onHover} onMouseLeave={onHover} onClick={handleClick}>
             Get Started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
@@ -115,4 +137,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default Premium;

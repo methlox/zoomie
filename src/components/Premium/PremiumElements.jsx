@@ -181,7 +181,7 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: 300px;
+  top: 280px;
 `;
 
 export const HeroH1 = styled.div`
