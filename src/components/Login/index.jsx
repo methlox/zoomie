@@ -9,15 +9,21 @@ import {
   Label,
   Input,
   Button,
-  Text
+  Text,
+  HeroBg,
+  ImageBg,
 } from "./LoginElements";
+import image from '../../Media/login.jpg'
 
 const LogIn = () => {
   return (
     <>
       <Container id="login">
+      <HeroBg>
+        <ImageBg src={image}/>
+      </HeroBg>
         <FormWrap>
-          <Icon to="/">shaadi.x</Icon>
+          <Icon to="/">zoomie</Icon>
 
           <FormContent>
             <Form action="#">

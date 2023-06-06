@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offset={-80}
               >
-                Matches
+                Social
               </NavLinks>
             </NavItem>
             <NavItem>
