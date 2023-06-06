@@ -36,7 +36,8 @@ const LogIn = () => {
               <Input type="password" required />
 
               <Button type="submit">Log In</Button>
-              <Text>Forgot my password</Text>
+              <Text>Forgot your password?</Text>
+              <Text to="wallet" target="_blank">Have a wallet?</Text>
             </Form>
           </FormContent>
         </FormWrap>

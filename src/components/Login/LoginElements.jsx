@@ -33,7 +33,7 @@ export const ImageBg = styled.img`
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  // background: #232a34;
+  background: #F23558;
 `;
 
 export const FormWrap = styled.div`
@@ -111,7 +111,7 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
-  background: #f2b33d;
+  background: #F23558;
   padding: 1rem 0;
   border: none;
   border-radius: 4px;
@@ -120,9 +120,11 @@ export const Button = styled.button`
   cursor: pointer;
 `;
 
-export const Text = styled.span`
+export const Text = styled(Link)`
   text-align: center;
   margin-top: 1.5rem;
   color: #fff;
   font-size: 0.8rem;
+  text-decoration: underline;
+  cursor: pointer;
 `;
