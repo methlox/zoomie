@@ -10,9 +10,9 @@ import {
   P
 } from "./HotelElements";
 
-import Icon4 from "../../Media/nextjs.svg";
-import Icon5 from "../../Media/vue.svg";
-import Icon6 from "../../Media/mongo.svg";
+import Icon4 from "../../Media/pizzeria.jpg";
+import Icon5 from "../../Media/cafe.jpg";
+import Icon6 from "../../Media/chuffico.jpg";
 
 const Discover = () => {
   return (
@@ -20,21 +20,21 @@ const Discover = () => {
       <H1>Discover</H1>
       <Wrapper>
       <Card>
-          <Icon src={Icon5} />
-          <H2>Vue JS</H2>
-          <P>Are you Vim because I can't quit you 😘</P>
+          <Icon src={Icon4} />
+          <H2>Pizzeria</H2>
+          <P>Taste the New York's pizza!</P>
         </Card>
 
         <Card>
-          <Icon src={Icon4} />
-          <H2>Next JS</H2>
-          <P>Better than your previous and your Next</P>
+          <Icon src={Icon5} />
+          <H2>Cafe Crepe</H2>
+          <P>Pet-friendly!</P>
         </Card>
 
         <Card>
           <Icon src={Icon6} />
-          <H2>MongoDB</H2>
-          <P>Can't find your number in this database :)</P>
+          <H2>Chuffico</H2>
+          <P>Knock Knock :)</P>
         </Card>
 
       </Wrapper>
