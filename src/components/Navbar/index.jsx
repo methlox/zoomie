@@ -8,11 +8,20 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-  NavLinksS,
   NavBtn,
   NavBtnLink,
 } from "./NavbarElements";
 import { FaBars } from "react-icons/fa";
+import styles from "../../App.css?inline";
+import { lazy } from "react";
+
+// const WalletMultiButtonDynamic = lazy(
+// 	async () =>
+// 		(await import("@solana/wallet-adapter-react-ui")).WalletMultiButton,
+// 	{ ssr: false }
+// );
+
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
 const Navbar = ({ toggle }) => {
   const toggleName = () => {
@@ -70,6 +79,7 @@ const Navbar = ({ toggle }) => {
                 Premium
               </NavLinks>
             </NavItem>
+            <WalletMultiButton className={styles["wallet-adapter-button-trigger"]}/>
           </NavMenu>
           <NavBtn>
             <NavBtnLink to="login" target="_blank">Sign In</NavBtnLink>

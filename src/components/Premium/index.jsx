@@ -129,7 +129,7 @@ const Premium = () => {
         <HeroP>Earn personalized rewards from your favourite restaurants and much more!</HeroP>
         <HeroBtnWrapper>
           <Button to="login" target="_blank" onMouseEnter={onHover} onMouseLeave={onHover} onClick={handleClick}>
-            Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+            Connect Wallet {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
