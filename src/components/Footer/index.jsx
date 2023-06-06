@@ -58,8 +58,8 @@ const Footer = () => {
             <LinkItems>
               <LinkTitle>Social Media</LinkTitle>
               <FooterLink to="" href="https://www.linkedin.com/in/methlox/">LinkedIn</FooterLink>
-              <FooterLink to="" href="https://instagram.com/methlox" >Instagram</FooterLink>
-              <FooterLink to="" href="https://twitter.com/vooloodoo">Twitter</FooterLink>
+              <FooterLink to="" href="https://instagram.com/cholesamose" >Instagram</FooterLink>
+              <FooterLink to="" href="https://twitter.com/methl0x">Twitter</FooterLink>
               <FooterLink to="" href="https://linktr.ee/methlox">Linktree</FooterLink>
             </LinkItems>
           </LinksWrapper>
@@ -67,9 +67,9 @@ const Footer = () => {
 
         <SocialMedia>
           <SMwrap>
-            <Logo to="home" onClick={toggleName}>shaadi.x</Logo>
+            <Logo to="home" onClick={toggleName}>zoomie</Logo>
             <Copy>
-              ©️ Siddhant Sharma - {new Date().getFullYear} All rights
+              ©️ methlox - All rights
               reserved.
             </Copy>
 
@@ -79,7 +79,7 @@ const Footer = () => {
               </IconLink>
 
               <IconLink
-                href="https://twitter.com/vooloodoo"
+                href="https://twitter.com/methl0x"
                 target="_blank"
               >
                 <FaTwitter />

@@ -11,7 +11,7 @@ export const contri = {
   topLine: "Contribute",
   heading: "Join the Open Source Project",
   subtitle:
-    "Get started with open source by opening your first PR and adding your favourite framework to this project.",
+    "Get started with open source by opening your first PR and adding your favourite feature to this project.",
   buttonTxt: "Get Started",
   btnPrimary: true,
   btnDarkTxt: true,

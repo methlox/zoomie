@@ -44,7 +44,7 @@ const Contribute = ({
                 <Subtitle lightTxtSub={lightTxtSub}>{subtitle}</Subtitle>
                 <BtnWrap>
                   <Button
-                    href="https://github.com/methlox/Shaadi.x"
+                    href="https://github.com/methlox/zoomie"
                     btnPrimary={btnPrimary ? 1 : 0}
                     btnDarkTxt={btnDarkTxt ? 1 : 0}
                     btnDarkTxtHover={btnDarkTxtHover ? 1 : 0}

@@ -24,7 +24,7 @@ const Navbar = ({ toggle }) => {
       <Nav>
         <NavbarContainer>
           <Navlogo to="/" onClick={toggleName}>
-            shaadi.x
+            zoomie
           </Navlogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
