@@ -12,15 +12,15 @@ export const MatchesContainer = styled.div`
   background: ${containerColor};
 
   @media screen and (max-width: 1000px) {
-    height: 950px;
+    height: 1220px;
   }
 
   @media screen and (max-width: 768px) {
-    height: 1200px;
+    height: 1600px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: 1900px;
   }
 `;
 
@@ -74,9 +74,14 @@ export const Card = styled.div`
     cursor: pointer;
   }
 
+  @media screen and (max-width: 1000px) {
+    max-height: 460px; 
+  }
+
   @media screen and (max-width: 768px) {
     justify-self: center;
     width: 65%;
+    height: 97%;
 
     //Space between every other card:
     &:not(:last-child) {
