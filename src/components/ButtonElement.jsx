@@ -17,6 +17,6 @@ export const Button = styled.a`
 
   &:hover { 
     transition: all 0.2s ease-in-out;
-    background: ${({primary}) => (primary ? '#fff' : '#F2B33D')};
+    background: ${({primary}) => (primary ? '#fff' : '#F23558')};
   }
 `

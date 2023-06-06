@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import image from "../../Media/heroo.jpg";
+import image from "../../Media/hero.jpg";
 import {
   HeroContainer,
   HeroBg,
