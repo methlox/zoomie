@@ -10,9 +10,9 @@ import {
   P
 } from "./OrderElements";
 
-import Icon1 from "../../Media/pizza.svg";
-import Icon2 from "../../Media/ice.svg";
-import Icon3 from "../../Media/ramen.svg";
+import Icon1 from "../../Media/pizza.jpg";
+import Icon2 from "../../Media/ice.jpg";
+import Icon3 from "../../Media/ramen.jpg";
 
 const Matches = () => {
   return (
