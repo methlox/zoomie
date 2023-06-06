@@ -20,6 +20,7 @@
     "@solana/wallet-adapter-react-ui": "^0.9.31",
     "@solana/wallet-adapter-wallets": "^0.19.16",
     "@solana/web3.js": "^1.77.3",
+    "appwrite": "^11.0.0",
     "framer-motion": "^10.12.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
