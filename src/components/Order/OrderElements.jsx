@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { Link } from 'react-router-dom';
 const bodyColor = "#f3f3fc";
 const containerColor = "#010606";
 
@@ -118,8 +118,9 @@ export const P = styled.p`
   }
 `;
 
-export const A = styled.div`
+export const A = styled(Link)`
   background-color: #F23558;
+  color: #000;
   padding: 10px;
   &:hover {
     text-decoration: underline;
