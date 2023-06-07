@@ -7,12 +7,14 @@ import {
   Card,
   Icon,
   H2,
-  P
+  P,
+  A,
 } from "./OrderElements";
 
 import Icon1 from "../../Media/pizza.jpg";
 import Icon2 from "../../Media/ice.jpg";
 import Icon3 from "../../Media/ramen.jpg";
+import { HStack } from "@chakra-ui/react";
 
 const Matches = () => {
   return (
@@ -22,23 +24,29 @@ const Matches = () => {
         <Card>
           <Icon src={Icon1} />
           <H2>Pizza</H2>
-          <P>
-            $ 19.99
-          </P>
+          <HStack spacing={15}>
+            <P>$ 19.99</P>
+            <A>Buy Now</A>
+          </HStack>
         </Card>
 
         <Card>
           <Icon src={Icon2} />
           <H2>Ice Cream</H2>
-          <P>$ 12.99</P>
+          <HStack spacing={15}>
+            <P>$ 12.99</P>
+            <A>Buy Now</A>
+          </HStack>
         </Card>
 
         <Card>
           <Icon src={Icon3} />
           <H2>Ramen</H2>
-          <P>$ 56.99</P>
+          <HStack spacing={15}>
+            <P>$ 56.99</P>
+            <A>Buy Now</A>
+          </HStack>
         </Card>
-
       </Wrapper>
     </MatchesContainer>
   );

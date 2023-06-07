@@ -63,7 +63,7 @@ export const Card = styled.div`
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  max-height: 420px;
+  max-height: 440px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
@@ -115,5 +115,13 @@ export const P = styled.p`
 
   @media screen and (max-width: 480px) {
     font-size: 1rem;
+  }
+`;
+
+export const A = styled.div`
+  background-color: #F23558;
+  padding: 10px;
+  &:hover {
+    text-decoration: underline;
   }
 `;
