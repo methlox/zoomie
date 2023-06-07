@@ -9,42 +9,69 @@ import {
   Divider,
   ButtonGroup,
   Button,
-  Image
+  Image,
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalFooter,
+  ModalBody,
+  ModalCloseButton,
+  useDisclosure,
 } from "@chakra-ui/react";
 
-import { Container } from "./CheckoutElements";
+import { Container, HeroBg, ImageBg } from "./CheckoutElements";
 import React from "react";
+import img from "../../Media/cooking.jpg";
+import pattern from "../../Media/pattern.jpg";
 
 const Cart = () => {
+  const { isOpen, onOpen, onClose } = useDisclosure(); // modal functionalities
   return (
     <Container id="checkout">
+      <HeroBg>
+        <ImageBg src={pattern} />
+      </HeroBg>
       <Card maxW="sm">
         <CardBody>
           <Image
-            src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+            src={img}
             alt="Green double couch with wooden legs"
             borderRadius="lg"
           />
           <Stack mt="6" spacing="3">
-            <Heading size="md">Living room Sofa</Heading>
-            <Text>
-              This sofa is perfect for modern tropical spaces, baroque inspired
-              spaces, earthy toned spaces and for people who love a chic design
-              with a sprinkle of vintage design.
-            </Text>
-            <Text color="blue.600" fontSize="2xl">
-              $450
+            <Heading size="md">We are cooking!</Heading>
+            <Text>Pay securely with Elusive Privacy.</Text>
+            <Text color="#BF2A45" fontSize="2xl">
+              0.5 SOL
             </Text>
           </Stack>
         </CardBody>
         <Divider />
         <CardFooter>
           <ButtonGroup spacing="2">
-            <Button variant="solid" colorScheme="blue">
-              Buy now
+            <Button variant="solid" colorScheme="blue" onClick={onOpen}>
+              Pay now
             </Button>
+            <Modal isOpen={isOpen} onClose={onClose}>
+              <ModalOverlay />
+              <ModalContent>
+                <ModalHeader>Elusiv Pay</ModalHeader>
+                <ModalCloseButton />
+                <ModalBody>
+                  <Text>Pay securely with Elusive Privacy.</Text>
+                </ModalBody>
+
+                <ModalFooter>
+                  <Button colorScheme="blue" mr={3} onClick={onClose}>
+                    Close
+                  </Button>
+                  <Button variant="ghost">Secondary Action</Button>
+                </ModalFooter>
+              </ModalContent>
+            </Modal>
             <Button variant="ghost" colorScheme="blue">
-              Add to cart
+              Use Razorpay
             </Button>
           </ButtonGroup>
         </CardFooter>

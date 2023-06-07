@@ -43,7 +43,7 @@ export const ImageBg = styled.img`
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  // background: #232a34;
+  background: #232a34;
 `;
 
 export const HeroContent = styled.div`
