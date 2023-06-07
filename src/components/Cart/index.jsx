@@ -1,6 +1,5 @@
 import {
   Card,
-  CardHeader,
   CardBody,
   CardFooter,
   Stack,
@@ -23,7 +22,7 @@ import {
   HStack,
 } from "@chakra-ui/react";
 
-import { Container, HeroBg, ImageBg } from "./CheckoutElements";
+import { Container, HeroBg, ImageBg } from "./CartElements";
 import React from "react";
 import img from "../../Media/cooking.jpg";
 import pattern from "../../Media/pattern.jpg";

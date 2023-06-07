@@ -14,7 +14,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} exact />
           <Route path="/login" element={<Login />} exact />
-          <Route path="/wallet" element={<wallet />} exact />
+          <Route path="/wallet" element={<wallet />} exact
+           />
           <Route path="/checkout" element={<Checkout />} exact />
         </Routes>
       </Router>
