@@ -118,7 +118,7 @@ export const P = styled.p`
   }
 `;
 
-export const A = styled.a`
+export const A = styled(Link)`
   background-color: #F23558;
   color: #000;
   padding: 10px;
