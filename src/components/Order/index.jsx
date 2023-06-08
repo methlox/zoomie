@@ -26,7 +26,8 @@ const Matches = () => {
           <H2>Pizza</H2>
           <HStack spacing={15}>
             <P>$ 19.99</P>
-            <A to="checkout" target="_blank">Buy Now</A>
+            {/* <A to="checkout" target="_blank">Buy Now</A> */}
+            <A href="https://shaadi-x.vercel.app/" target="_blank">Buy Now</A>
           </HStack>
         </Card>
 
@@ -35,7 +36,8 @@ const Matches = () => {
           <H2>Ice Cream</H2>
           <HStack spacing={15}>
             <P>$ 12.99</P>
-            <A to="checkout" target="_blank">Buy Now</A>
+            {/* <A to="checkout" target="_blank">Buy Now</A> */}
+            <A href="https://shaadi-x.vercel.app/" target="_blank">Buy Now</A>
           </HStack>
         </Card>
 
@@ -44,7 +46,8 @@ const Matches = () => {
           <H2>Ramen</H2>
           <HStack spacing={15}>
             <P>$ 56.99</P>
-            <A to="checkout" target="_blank">Buy Now</A>
+            {/* <A to="checkout" target="_blank">Buy Now</A> */}
+            <A href="https://shaadi-x.vercel.app/" target="_blank">Buy Now</A>
           </HStack>
         </Card>
       </Wrapper>

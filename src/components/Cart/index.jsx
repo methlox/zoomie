@@ -27,6 +27,10 @@ import React from "react";
 import img from "../../Media/cooking.jpg";
 import pattern from "../../Media/pattern.jpg";
 
+// elusiv stuff
+// import { getParams } from '../Boilerplate';
+
+// the elusiv icon
 const icon = createIcon({
   displayName: "icon",
   viewBox: "0 0 270 270",
@@ -41,8 +45,19 @@ const icon = createIcon({
   ),
 });
 
+
+
 const Cart = () => {
   const { isOpen, onOpen, onClose } = useDisclosure(); // modal functionalities
+
+  // (async () => { const { elusiv, senderWallet, conn } = await getParams() });
+
+  // getting data from wallet
+  // (async () => {
+  //   let senderBalance = await connection.getBalance(senderWallet.publicKey);
+  // })();
+
+
   return (
     <Container id="checkout">
       <HeroBg>

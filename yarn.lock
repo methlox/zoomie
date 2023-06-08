@@ -1992,10 +1992,10 @@
     wasmcurves "0.2.0"
     web-worker "^1.2.0"
 
-"@elusiv/sdk@^0.1.12":
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/@elusiv/sdk/-/sdk-0.1.12.tgz#576a3ddffceec9c5bd755e291bc0974ce17201a9"
-  integrity sha512-jQ8Z1rOPtZu5WJg+k8V8EN2hwnsq/8iTXvTADxx4F3FnLXy2fmlY/bMyITu8mjIQfSwcBtY/ch+o2R4B2ErI0Q==
+"@elusiv/sdk@0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@elusiv/sdk/-/sdk-0.1.11.tgz#acfeac0cbce8bce1bc704eb2caf1d9a15fa7eec3"
+  integrity sha512-74wymAsGvmJLi6AKYFKBYbwvE84TN7nmaPe1Q8o0YKFhpRw66qbb5BokoX1DvrGjbGgkVnWsEj02/L7C31+s0g==
   dependencies:
     "@dao-xyz/borsh" "^5.1.3"
     "@elusiv/ffjavascript" "^0.2.57"
@@ -2864,6 +2864,11 @@
   integrity sha512-091oBExgENk/kGj3AZmtBDMpxQPDtxQABR2B9lb1JbVTs6ytdzZNwvhxQ4MWasRNEzlbEH8jCWFCwhF/Obj5AA==
   dependencies:
     "@noble/hashes" "1.3.1"
+
+"@noble/ed25519@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@noble/ed25519/-/ed25519-2.0.0.tgz#5964c8190a4b4b804985717ca566113b93379e43"
+  integrity sha512-/extjhkwFupyopDrt80OMWKdLgP429qLZj+z6sYJz90rF2Iz0gjZh2ArMKPImUl13Kx+0EXI2hN9T/KJV0/Zng==
 
 "@noble/hashes@1.3.0":
   version "1.3.0"
